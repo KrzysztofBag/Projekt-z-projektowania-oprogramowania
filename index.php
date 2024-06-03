@@ -14,7 +14,13 @@ require "dbconnect.php";
 ?>
 
 
+<form action="post">
 
+    <label for="title">Tytuł</label>
+    <input type="text" name="title" id="title">
+    <input type="submit" value="Wyszukaj">
+
+</form>
 
 
 </body>
