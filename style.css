@@ -9,3 +9,13 @@ body {
     font-family: custom;
     font-weight: 500;
 }
+
+input {
+    background-color: #23DE23;
+    font-family: custom;
+    font-weight: 300;
+    color: #232323;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #454545;
+}
