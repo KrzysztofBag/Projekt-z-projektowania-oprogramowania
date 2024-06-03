@@ -1,0 +1,11 @@
+@font-face {
+    font-family: custom;
+    src: url(./LexendDeca-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #232323;
+    color: white;
+    font-family: custom;
+    font-weight: 500;
+}
