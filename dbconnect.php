@@ -3,6 +3,6 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$db = "";
+$db = "biblioteka_z_muzyka";
 
 ?>
