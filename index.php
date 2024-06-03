@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div id="audiodiv">
+
+</div>
     
 <?php
 require "dbconnect.php";
@@ -23,15 +26,16 @@ if(isset($_POST['wyszukaj']))
     while($row=mysqli_fetch_array($q))
     {
         echo "<div>";
-        echo "<span>$row[1]<span/>";
-        echo "<input type='button' value='Wybierz' data-link='$row[2]'";
+        echo "<span>$row[1]</span>";
+        echo "<input type='button' value='Wybierz' data-link='$row[2]' class='wybor' />";
         echo "</div>";
     }
 }
 ?>
 
 
-<script src="./script.js"></script>
+
+
 
 </body>
 </html>
