@@ -38,7 +38,7 @@ if(isset($_POST['szukaj']))
 {
     $wybor = $_POST['tytul_autor'];
     $text = $_POST['text'];
-    $q = mysqli_query($con,"SELECT * FROM `biblioteka` WHERE biblioteka.$wybor LIKE '$text %'");
+    $q = mysqli_query($con,"SELECT * FROM `biblioteka` WHERE biblioteka.$wybor LIKE '$text%'");
     while($row=mysqli_fetch_array($q))
     {
         echo "<div>";
